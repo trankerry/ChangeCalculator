@@ -26,7 +26,8 @@ function handleChangeCalculate() {
     let change = determineType(result);
     //BONUS ADDED 20,10,5,2 dollars
     for (let i = 0; i < ids.length; i++) {
-        animateValue(ids[i], 0, change[i], 2000)
+        document.getElementById(ids[i]).innerHTML = 0;
+        animateValue(ids[i], 0, change[i], 2000);
     }
 }
 
