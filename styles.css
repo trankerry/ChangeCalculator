@@ -1,29 +1,32 @@
-*{
+* {
     color: white;
 }
-body{
+
+body {
     background-color: #444444;
 }
 
-h1{
+h1 {
     color: #0A0708;
 }
-.container{
+
+.container {
     margin-top: 20px;
 }
 
-.btn{
+.btn {
     background-color: #747474;
     color: #0A0708;
 }
-.input-group{
+
+.input-group {
     background-color: #444444;
     border: none;
     border-bottom: 2px solid #B1B1B1;
 
 }
-.card{
+
+.card {
     border: none;
     background-color: #444444;
 }
-
